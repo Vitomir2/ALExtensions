@@ -2,10 +2,14 @@
 // Remember that object names and IDs should be unique across all extensions.
 // AL snippets start with t*, like tpageext - give them a try and happy coding!
 
-pageextension 50100 CustomerListExt extends "Customer List"
+codeunit 50001 HelloWorld
 {
-    trigger OnOpenPage();
+    TableNo = Customer;
+
+    trigger OnRun();
+    var
+        HelloText: Codeunit GreetingsManagement;
     begin
-        Message('App published: Hello world');
+        Message('%1, %2', HelloText.GetHelloWorldText(5), Rec.Name);
     end;
 }

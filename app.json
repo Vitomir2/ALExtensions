@@ -1,9 +1,9 @@
 {
   "id": "9359b344-d10a-46a7-958c-c2e3336839ff",
-  "name": "Source",
+  "name": "First Extension",
   "publisher": "Default publisher",
-  "brief": "",
-  "description": "",
+  "brief": "Say Hello World and create Vehicle Table",
+  "description": "Easy way to say hello to the world and then create Vehicle table",
   "version": "1.0.0.0",
   "privacyStatement": "",
   "EULA": "",
