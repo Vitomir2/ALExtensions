@@ -1,6 +1,8 @@
 table 50000 Vehicle
 {
     DataClassification = ToBeClassified;
+    DrillDownPageId = 50000;
+    LookupPageId = 50000;
 
     fields
     {
